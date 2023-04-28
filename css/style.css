@@ -1,3 +1,38 @@
 #food_packages {
     padding: 50px 0;
 }
+
+#suppliers {
+    padding: 50px 0;
+}
+
+#buyer-list {
+    padding: 50px 0;
+}
+
+#team-list {
+    padding: 50px 0;
+}
+
+.staff-photo {
+    /* Round images */
+    border-radius: 100%;
+}
+
+#team-list .card {
+    border: none;
+    padding: 5px;
+}
+
+#team-list .card-title {
+    text-align: center;
+}
+
+#team-list .card-body {
+    text-align: center;
+}
+
+#img-logo {
+    height: 200px;
+    width: 200px;
+}
