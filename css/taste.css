@@ -1,0 +1,10 @@
+/* This file should work for all Taste the X pages */
+
+#img-logo {
+    height: 200px;
+    width: 200px;
+}
+
+#taste_the_intro {
+    padding-top: 55px;
+}
