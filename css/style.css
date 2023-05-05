@@ -10,6 +10,14 @@
     padding: 50px 0;
 }
 
+.store-photo {
+    display: block;
+    max-width: 330px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
 #team-list {
     padding: 50px 0;
 }
