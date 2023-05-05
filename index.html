@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -287,12 +288,55 @@
                         more!</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><span href="https://goo.gl/maps/WyZsurzKPeK4FsWy5"
-                            class="glyphicon glyphicon-map-marker"></span>Laugarvegur 8, 101 Reykjavík
+                    <li class="list-group-item">
+                        <button type="button" class="btn btn-info"
+                            onClick="window.location.href='https://goo.gl/maps/JGmg3BDL7G8An2xd7'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
+                                <path fill-rule="evenodd"
+                                    d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                            </svg>
+                            Laugarvegur 8, 101 Reykjavík
+                        </button>
                     </li>
                 </ul>
                 <div class="card-body">
-                    <a href="https://www.facebook.com/tasteoficeland.is" class="card-link">Website</a>
+                    <button type="button" class="btn btn-primary"
+                        onclick="window.location.href='https://www.facebook.com/tasteoficeland.is'">Website</button>
+
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://vb.overcastcdn.com/images/27328.2e16d0ba.fill-1006x580-c100.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Melabúðin</h5>
+                    <p class="card-text">Melabúðin is a well-established grocery store. Our focus is on providing
+                        personalized service and a wide range of products. We offer a variety of quality meat and fish,
+                        where you can select based on weight. In addition to that, we provide advice on selecting meat
+                        and fish as well as cooking.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <button type="button" class="btn btn-info"
+                            onClick="window.location.href='https://goo.gl/maps/VnB84z9TF6aY38vx9'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
+                                <path fill-rule="evenodd"
+                                    d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                            </svg>
+                            Hagamelur 39, 107 Reykjavík
+                        </button>
+                    </li>
+                </ul>
+                <div class="card-body">
+                    <button type="button" class="btn btn-primary"
+                        onclick="window.location.href='https://www.melabudin.is'">Website</button>
+
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -306,40 +350,82 @@
                         any of our 26 conveniently located stores across Reykjavik and Iceland.</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Dalbraut 1, 300 Akranes</li>
-                    <li class="list-group-item">Tryggvabraut 8, 600 Akureyri</li>
-                    <li class="list-group-item">Borgartún 26, 105 Reykjavík</li>
-                    <li class="list-group-item">Fiskislóð 15-21, 101 Reykjavík</li>
-                    <li class="list-group-item">Hallveigarstígur 1, 101 Reykjavík</li>
-                    <li class="list-group-item">Austurvegur 4, 860 Hvolsvöllur</li>
-                    <li class="list-group-item">Hafnargara 2, 730 Reyðarfjörður</li>
-                    <li class="list-group-item">Austurvegur 3-5, 800 Selfoss</li>
-                    <li class="list-group-item">Strandvegi 48, 900 Vestmannaeyjar</li>
-                    <li class="list-group-item">Austurvegur 20, 870 Vík</li>
-                    <li class="list-group-item">Selvogsbraut 12, 815 Þorlákshöfn</li>
+                    <li class="list-group-item">
+                        <button type="button" class="btn btn-info"
+                            onClick="window.location.href='https://goo.gl/maps/XbLAnksd7cND1mFJ9'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
+                                <path fill-rule="evenodd"
+                                    d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                            </svg>
+                            Krónan Granda
+                        </button>
+                    </li>
+                    <li class="list-group-item">
+                        <button type="button" class="btn btn-info"
+                            onClick="window.location.href='https://goo.gl/maps/MBePaUpEz8P5zvsLA'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
+                                <path fill-rule="evenodd"
+                                    d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                            </svg>
+                            Krónan Hallveigarstíg
+                        </button>
+                    </li>
+                    <li class="list-group-item">
+                        <button type="button" class="btn btn-info"
+                            onClick="window.location.href='https://goo.gl/maps/MsmBi8vcT5P1hGso6'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
+                                <path fill-rule="evenodd"
+                                    d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                            </svg>
+                            Krónan Borgartúni
+                        </button>
+                    </li>
+                    <li class="list-group-item">
+                        <button type="button" class="btn btn-info"
+                            onClick="window.location.href='https://goo.gl/maps/ewCoozxLoXq2ctkv9'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
+                                <path fill-rule="evenodd"
+                                    d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                            </svg>
+                            Krónan Akranesi
+                        </button>
+                    </li>
+                    <li class="list-group-item">
+                        <button type="button" class="btn btn-info"
+                            onClick="window.location.href='https://goo.gl/maps/MfttU4LGYcH2vjrL9'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
+                                <path fill-rule="evenodd"
+                                    d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                            </svg>
+                            Krónan Akureyri
+                        </button>
+                    </li>
+                    <li class="list-group-item"> And more...</li>
+
 
                 </ul>
                 <div class="card-body">
-                    <a href="kronan.is" class="card-link">Website</a>
+                    <button type="button" class="btn btn-primary"
+                        onclick="window.location.href='https://www.kronan.is'">Website</button>
+
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="https://static.wikia.nocookie.net/simpsons/images/d/da/800px-Kwik-E-Mart.png/revision/latest?cb=20170101230443"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                </div>
-            </div>
+
             <div class="card" style="width: 18rem;">
                 <img src="https://static.wikia.nocookie.net/simpsons/images/d/da/800px-Kwik-E-Mart.png/revision/latest?cb=20170101230443"
                     class="card-img-top" alt="...">
